@@ -3,7 +3,7 @@
     <header>
 
   <?php if ( has_post_thumbnail() ) { ?>
-  	<div class="page_img">
+  	<div class="post_img">
   	 	<?php the_post_thumbnail(); ?>
   	</div>
   <?php } ?>
