@@ -62,7 +62,7 @@ function my_theme_register_required_plugins() {
 	$plugins = array(
 
 		// This is an example of how to include a plugin pre-packaged with a theme
-		
+		/*
 		array(
 			'name'     				=> 'Wordpress Creation Kit PRO', // The plugin name
 			'slug'     				=> 'wordpress-creation-kit-pro', // The plugin slug (typically the folder name)
@@ -73,7 +73,7 @@ function my_theme_register_required_plugins() {
 			'force_deactivation' 	=> false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins
 			'external_url' 			=> '', // If set, overrides default API URL and points to an external URL
 		),
-        
+               */
 		// This is an example of how to include a plugin from the WordPress Plugin Repository
 		array(
 			'name' 		=> 'PHP Code Widget',
@@ -104,7 +104,13 @@ function my_theme_register_required_plugins() {
 			'name' 		=> 'ACF',
 			'slug' 		=> 'advanced-custom-fields',
 			'required' 	=> false,
+		),
+		array(
+			'name' 		=> 'WCK Custom Post Types',
+			'slug' 		=> 'wck-custom-fields-and-custom-post-types-creator',
+			'required' 	=> false,
 		),		
+		
 
 	);
 
