@@ -9,3 +9,20 @@ Author URI:         http://DevCabin.com/
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
+
+/*
+=================================================================================
+
+Here's the stuff from http://roots.io/roots-101/ that you need after 
+you "CD" into the theme directory via command line
+
+
+    1. Install grunt-cli globally with npm install -g grunt-cli.
+    
+    2. Navigate to the theme directory, then run npm install. 
+    
+    
+Please erase this bit from style.css after you're done with it.
+
+================================================================================
+*/
