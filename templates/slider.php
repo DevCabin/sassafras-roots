@@ -10,6 +10,18 @@
 					<img src="http://placekitten.com/g/1140/300" title="This is what a second could look like!" />
 					<img src="http://placehold.it/1140x300" alt="" title="No caption on the next one" />
 					<img src="http://placekitten.com/g/1140/300" title="" />
+					
+					
+<?php /* // production code, includes custom field and post type 
+$args = array( 'post_type' => 'home-page-sliders', 'posts_per_page' => 12 );
+$loop = new WP_Query( $args );
+while ( $loop->have_posts() ) : $loop->the_post();
+?>
+
+<img src="<?php the_field('image'); ?>" alt="<?php the_title(); ?>" />
+
+<?php endwhile; */ ?>					
+					
 				</div>
 				<div id="transitions">
 					<!--
