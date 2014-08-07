@@ -1,5 +1,10 @@
 sassafras-roots
 ===============
+To Do :
+
+=================
+https://github.com/blueimp/Bootstrap-Image-Gallery
+=================
 
 Custom Wordpress theme based on roots and sass.
 
