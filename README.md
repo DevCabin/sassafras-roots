@@ -2,9 +2,9 @@ sassafras-roots
 ===============
 To Do :
 
-=================
+
 https://github.com/blueimp/Bootstrap-Image-Gallery
-=================
+https://wordpress.org/plugins/resize-image-after-upload/
 
 Custom Wordpress theme based on roots and sass.
 
